@@ -4,3 +4,44 @@
 - การใช้ Semantic HTML
 - Form Validation
 - ARIA Labels
+## git command used in this lab
+- git config --global user.name Wanchalerm
+- git config --global user.email 66160153@go.buu.ac.th
+- git clone https://github.com/66160153waaa/web-semantic-lab
+- git add README.md
+- git commit -m "the first"
+- git push
+- git checkout -b development
+- git add .
+- git commit -m "สร้างโครงสร้างโปรเจคเริ่มต้น" 
+- git checkout -b feature/home-page 
+- git add index.html 
+- git commit -m "สร้างโครงสร้างเริ่มต้นของโปรเจค"
+- git add contact.html 
+- git commit -m "สร้างโครงสร้างเริ่มต้นของโปรเจค2" 
+- git add index.html 
+- git commit -m "เพิ่ม header และ nav ในหน้าหลัก"
+- git add index.html
+- git commit -m "เพิ่มส่วน main วน main และ article ในหน้าหลัก"
+- git add index.html
+- git commit -m "เพิม aside และ footer ในหน้าหลัห"
+- git checkout -b feature/contact 
+- git add contact.html 
+- git commit -m "สร้างโครงสร้างพื้นฐานในหน้าติดต่อ" 
+- git add contact.html
+- git commit -m "เพิ่มฟอร์มพท้นฐานในหน้าติดต่อ" 
+- git add contact.html 
+- git commit -m "เพิ่ม validation ในฟอร์มติดต่อ" 
+- git add contact.html
+- git commit -m "เพิ่ม aria landmark ในการทำงาน"
+- git checkout development
+- git checkout  feature/contact
+- git add contact.html
+- git commit -m "last edit" 
+- git checkout -b feature/home-page 
+- git add index.html 
+- git commit -m "last edit"
+- git checkout development 
+- git merge feature/home-page 
+- git merge feature/contact 
+- git push origin development
